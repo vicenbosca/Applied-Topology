@@ -289,7 +289,7 @@ class Trainer:
                 return True
             return False
     
-    def train(self, epochs, save_path='best_model.pth'):
+    def train(self, epochs, save_path='models/best_model.pth'):
         """Train the model with early stopping"""
         import time
         start_time = time.time()
